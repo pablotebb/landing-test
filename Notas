@@ -1,0 +1,52 @@
+        Creando Página web más Hosting y Dominio desde Cero | Github Pages y Namecheap
+        (Fazt)
+
+En este vídeo vamos a aprender a crear una página web desde Cero utilizando HTML, CSS, aprenderemos un poco de CSS grid, y animaciones. y Finalmente terminaremos subiendo nuestra pagina a un Hosting Gratuito más un Dominio que compraremos en namecheap. el Objetivo de este ejemplo es que puedas aprender el proceso de creación de un sitio de la manera más sencilla posible.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+1)---
+
+Apunte: En esta aplicación, vamos a utilizar las grillas que nos provee las útimas versiones de Css. Que es algo así como 
+las columnas de otros frameworks, pero viene de manera nativa.
+
+Mirar el código en: "https://github.com/FaztWeb/landing-page-three" (para bajar las imágenes)
+
+Vamos a "fontawesome.com" (copiamos el CDN)
+
+Creamos "index.html" (pegamos el CDN dentro, y hacemos el resto de la página)
+
+Vamos a: "https://fonts.google.com"
+
+Apunte: Recuerda que es aconsejable usar máximo 2 fuentes, para que tu página no se demore mucho en cargar.
+
+Vamos a "https://daneden.github.io/animate.css/"
+
+Creamos "css/style.css"
+
+
+PASOS:
+1) Vamos a subir a github la página que hemos creado.
+2) Nos logeamos en dicha página.
+3) Creamos un nuevo repositorio, para subir nuestra página. El autor del vídeo 
+   llama a dicho repositorio 'landing-test'.
+4) Copiamos la dirección que nos da:
+   git remote add origin https://...
+5) Vamos a la consola de nuestro proyecto:
+   $ git init
+   $ git status
+     ...
+   $ git add .
+   $ git status 
+     ...
+   $ git commit -m "first commit"
+   $ git remote add origin https://...
+   $ git push -u origin master
+     (nos pide el login y constraseña que tengamos en github)
+6) Vamos a la página de nuestro proyecto en Github.
+   Damos al botón desplegable 'Branch master', y creamos "gh-pages"
+   Apunte: Tendríamos ahora 2 ramas. La rama de nuestro código (de "master"), y la rama (de "gh-pages") para verlo en un servidor.
+7) Dentro de github, seleccionamos la rama que acabamos de crear ("gh-pages").
+8) Click en la pestaña 'Settings'. Y en la página que aparece, vamos a la
+   sección "Github Pages", y le damos al enlace...
+
